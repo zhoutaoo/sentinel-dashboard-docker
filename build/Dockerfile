@@ -4,7 +4,7 @@ MAINTAINER zhoutaoo "zhoutaoo@foxmail.com"
 # set environment
 ENV BASE_DIR="/home/sentinel" \
     SERVER_PORT="8021" \
-    DASHBOARD_SERVER="localhost:"$SERVER_PORT \
+    DASHBOARD_SERVER="localhost:8021" \
     PROJECT_NAME="sentinel-dashboard" \
     JAVA_OPTS="" \
     TIME_ZONE="Asia/Shanghai"
