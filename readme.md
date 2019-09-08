@@ -1,6 +1,6 @@
 # Sentinel Dashboard Docker
 
-![Docker Pulls](https://hub.docker.com/r/cike/sentinel-dashboard-docker)
+[Docker Pulls](https://hub.docker.com/r/cike/sentinel-dashboard-docker)
 
 本项目是Alibaba Sentinel Dashboard [Sentinel](https://github.com/alibaba/Sentinel).
 
@@ -31,7 +31,7 @@ Run the following command：
 * Run With docker
 
 ```sh
-docker run -p8021:8021 -it cike/sentinel-dashboard-docker
+docker run -p 8021:8021 -it cike/sentinel-dashboard-docker
 ```
 
 * Run With docker-compose
