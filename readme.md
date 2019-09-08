@@ -44,6 +44,8 @@ docker run -p 8021:8021 -it cike/sentinel-dashboard-docker
 
   link：http://127.0.0.1:8021/
 
+  ![示例图](index.png)
+
 
 ## Common property configuration
 
