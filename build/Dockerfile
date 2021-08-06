@@ -14,6 +14,7 @@ ARG SENTINEL_DASHBOARD_VERSION=1.6.3
 WORKDIR /$BASE_DIR
 
 RUN set -x \
+    && apk update \
     && apk --no-cache add ca-certificates wget \
     && update-ca-certificates \
     && wget https://github.com/alibaba/Sentinel/releases/download/${SENTINEL_DASHBOARD_VERSION}/sentinel-dashboard-${SENTINEL_DASHBOARD_VERSION}.jar -P $BASE_DIR \
